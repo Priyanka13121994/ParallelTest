@@ -28,6 +28,8 @@ public class ParallelTestDemo
 	  driver=new InternetExplorerDriver();
 	  System.out.println("InternetBrowser is opened Successfully");
 	  System.out.println("Internet Thread Details are "+Thread.currentThread().getId());
+	  System.out.println("Internet Thread Details are "+Thread.currentThread().getId());
+	  System.out.println("Internet Thread Details are "+Thread.currentThread().getId());
   }
   
   @BeforeMethod
